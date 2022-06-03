@@ -2,8 +2,6 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import math
-import spacy
-import base64
 import os
 import sys
 import time
@@ -16,11 +14,7 @@ from src.utils.helper_function import *
 import nltk
 from wordcloud import WordCloud, STOPWORDS
 from PyDictionary import PyDictionary
-from nltk.stem import PorterStemmer
-from nltk.tokenize import word_tokenize
-from nltk.stem import WordNetLemmatizer
 import matplotlib.pyplot as plt
-nltk.download('punkt')
 
 def convert_df(df):
     # return df.to_csv().encode('utf-8')

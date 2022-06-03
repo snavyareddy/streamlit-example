@@ -1,0 +1,23 @@
+# notebook checkpoints
+*ipynb_checkpoints/ 
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+*ipynb_checkpoints
+
+# Azure ML temp files
+*.amltmp 
+*.amltemp
+*amlignore
+
+
+# python cache files
+__py_cache__
+__pycache__ 
+*.pyc
+
+# pytest
+.cache
+.pytest_cache
+
+# vscode
+.vscode

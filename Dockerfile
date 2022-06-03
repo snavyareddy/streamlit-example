@@ -1,4 +1,4 @@
-FROM python:3.6
+FROM python:3.7
 
 COPY environement_setup/requirements.txt ./requirements.txt
 RUN pip install -r requirements.txt

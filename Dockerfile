@@ -1,6 +1,5 @@
 FROM python:3.7
 
-COPY environement_setup/requirements.txt ./requirements.txt
 COPY environement_setup/conda.yml ./conda.yml
 RUN conda env create -f conda.yml
 RUN conda activate sample_env

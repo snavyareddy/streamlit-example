@@ -1,6 +1,6 @@
 FROM python:3.7
 
-COPY environment_setup/requirements.txt ./requirements.txt
+COPY environement_setup/requirements.txt ./requirements.txt
 RUN pip install -r requirements.txt
 
 COPY /.streamlit/config.toml /.streamlit/config.toml

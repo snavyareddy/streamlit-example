@@ -16,7 +16,6 @@ from wordcloud import WordCloud, STOPWORDS
 from PyDictionary import PyDictionary
 import matplotlib.pyplot as plt
 
-
 def convert_df(df):
     # return df.to_csv().encode('utf-8')
     return df.to_csv()
